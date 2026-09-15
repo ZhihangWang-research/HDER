@@ -1,0 +1,5 @@
+﻿model,trainable_parameters_m,estimated_train_time_min_per_epoch,inference_time_mean_ms_per_doc,inference_time_sample_sd_ms_per_doc,peak_train_memory_gib
+ATLOP,363.27,7.93,27.53,0.1,9.14
+HDER w/o SRR,439.06,10.27,42.43,0.16,10.38
+HDER w/o HAE,440.09,10.38,43.05,0.14,10.42
+HDER,448.52,10.43,45.39,0.3,10.52

@@ -1,0 +1,58 @@
+{
+  "main_experiments": {
+    "gpu": "NVIDIA GeForce RTX 3090 (24 GB)",
+    "backbone": "RoBERTa-large",
+    "batch_size": 8,
+    "dropout_rate": 0.1,
+    "optimizer": "AdamW",
+    "num_train_epochs": 20,
+    "srr_message_passing_steps": 2,
+    "independent_runs": 5,
+    "seeds": [
+      13,
+      21,
+      42,
+      66,
+      88
+    ],
+    "reporting": "验证集5次独立运行的均值±样本标准差"
+  },
+  "grouped_evaluation": {
+    "dataset_split": "DocRED验证集",
+    "figure5_grouping": "相关实体对数量区间",
+    "figure6_grouping": "实体数量区间"
+  },
+  "efficiency_experiments": {
+    "gpu": "NVIDIA Tesla T4 (16 GB)",
+    "physical_train_batch_size": 1,
+    "inference_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "max_input_length": 1024,
+    "mixed_precision": true,
+    "sampled_train_documents": 240,
+    "train_warmup_batches": 20,
+    "measured_train_batches": 200,
+    "sampled_dev_documents": 300,
+    "inference_warmup_batches": 10,
+    "inference_repeats": 3
+  },
+  "model_selection": {
+    "selection_metric": "dev Ign F1",
+    "saved_best_checkpoint": "best.ckpt",
+    "evaluation_default_checkpoint": "best.ckpt",
+    "override_argument": "--checkpoint_name"
+  },
+  "ablation_reproduction": {
+    "complete_hder": "bash train.sh full",
+    "no_hae": "bash train.sh no_hae",
+    "no_cross_layer_attention": "bash train.sh no_cross_layer",
+    "no_srr": "bash train.sh no_srr",
+    "no_position_encoding": "bash train.sh no_position",
+    "fixed_global_mean": "bash train.sh fixed_mean",
+    "bert_backbone": "bash train.sh bert_backbone"
+  },
+  "optional_local_data": {
+    "auxiliary_graph_path": "./auxiliary_graph_data/graph_statistics.json",
+    "public_package": "仅保留目录占位文件，不包含本地辅助图统计文件"
+  }
+}

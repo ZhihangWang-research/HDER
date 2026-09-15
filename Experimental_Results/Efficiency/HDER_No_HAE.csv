@@ -1,0 +1,2 @@
+﻿trainable_parameters_m,estimated_train_time_min_per_epoch,inference_time_mean_ms_per_doc,inference_time_sample_sd_ms_per_doc,peak_train_memory_gib
+440.09,10.38,43.05,0.14,10.42

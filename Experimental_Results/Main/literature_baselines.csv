@@ -1,0 +1,17 @@
+﻿dataset,model,dev_ign_f1,dev_f1,test_ign_f1,test_f1,source_type
+DocRED,ATLOP,61.32,63.18,61.39,63.4,cited_literature
+DocRED,DocuNet,62.23,64.12,62.39,64.55,cited_literature
+DocRED,KD-DocRE,62.16,64.19,62.57,64.28,cited_literature
+DocRED,DREEAM,62.29,64.2,62.12,64.27,cited_literature
+DocRED,PEMSCL,62.31,64.21,62.17,64.28,cited_literature
+DocRED,AA,63.15,65.19,62.88,64.98,cited_literature
+DocRED,ET-MIER,63.07,64.93,62.91,65.02,cited_literature
+DocRED,GREP,63.74,65.64,62.96,64.86,cited_literature
+Re-DocRED,ATLOP,76.88,77.63,76.94,77.73,cited_literature
+Re-DocRED,DocuNet,77.53,78.16,77.27,77.92,cited_literature
+Re-DocRED,KD-DocRE,77.92,78.65,77.63,78.35,cited_literature
+Re-DocRED,PEMSCL,79.02,79.89,79.01,79.86,cited_literature
+Re-DocRED,DREEAM,,,79.66,80.73,cited_literature
+Re-DocRED,AA,80.04,81.15,80.12,81.2,cited_literature
+Re-DocRED,ET-MIER,80.72,81.36,80.83,81.41,cited_literature
+Re-DocRED,GREP,80.6,81.26,81.0,81.61,cited_literature

@@ -1,0 +1,8 @@
+﻿variant,ign_precision,ign_recall,ign_f1,precision,recall,f1
+Complete_HDER,67.1618,65.46,66.3,73.1687,65.46,69.1
+No_HAE,63.3622,62.84,63.1,69.0526,62.84,65.8
+No_Cross_Layer_Attention,66.1543,63.5,64.8,72.266,63.5,67.6
+Fixed_Global_Mean,67.3268,64.15,65.7,73.4829,64.15,68.5
+No_SRR,64.513,63.89,64.2,70.4283,63.89,67.0
+No_Position_Encoding,66.9846,64.85,65.9,73.036,64.85,68.7
+BERT_Backbone,65.2643,62.4,63.8,70.9479,62.4,66.4

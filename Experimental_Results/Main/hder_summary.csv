@@ -1,0 +1,3 @@
+﻿dataset,dev_ign_f1_mean,dev_ign_f1_sample_sd,dev_f1_mean,dev_f1_sample_sd,test_ign_f1,test_f1
+DocRED,67.06,0.17,69.68,0.19,66.3,69.1
+Re-DocRED,81.28,0.19,82.06,0.22,81.5,82.32
