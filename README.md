@@ -24,7 +24,6 @@
 
 DocRED 和 Re-DocRED 为第三方公开基准数据集，本仓库不重复分发，下载地址与本地文件说明见 `Data/README.md`。
 
-`Code/auxiliary_graph_data/` 仅保留目录占位文件，不包含本地辅助图统计文件。
 
 ## 运行
 
